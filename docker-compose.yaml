@@ -5,7 +5,7 @@ services:
     image: nginx:latest
     volumes:
       - "./nginx.conf:/etc/nginx/nginx.conf"
-      - "./Certs/:/home/tharuka/Desktop/Project/Certs/"
+      - "./Certs/:/home/wso2/Certs/"
     ports:
       - 80:80
       - 443:443
